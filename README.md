@@ -28,7 +28,32 @@ Use the interactive map's hover tool to explore location of high and low priced 
 3) House  or Condo Flips, buy distressed or fixer upers near the highest end properties and cash in on your sweat equity as fast as you can do the work and sell.
 
      
+Instructions
+Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
 
+Navigate to my github repo `https://github.com/cannabbeers/06_san_francisco_housing`
+Copy the URL for HTTPS or SSH, clone the repo locally, open in a jupyter notebook
+
+Run code starting with...
+
+Import Dependencies: 
+pandas
+numpy
+hvplot.pandas
+holoviews
+seaborn
+matplotlib
+watermark
+pathlib
+
+If any are missing from your environment, you may `pip` install them, but recommend:
+
+     $ conda install -c pyviz hvplot
+     $ conda install -c conda-forge holoviews
+     $ conda install -c conda-forge seaborn
+     $ conda install -c conda-forge <other_packages_insert_here>
+
+     
 
 
 
